@@ -1,0 +1,25 @@
+*{margin: 0;
+padding: 0;}
+.home{
+    transition: all 5s;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    background-color: blue;
+    box-shadow:
+    300px 0px 0px 0px blueviolet,
+    0px 300px 0px 0px lawngreen,
+    -300px 300px 0px 0px black,
+    300px -300px 0px 0px deepskyblue,
+    -300px -300px 0px 0px gold,
+    0px -300px 0px 0px greenyellow,
+    -300px 0px 0px 0px coral,
+    300px 300px 0px 0px purple;
+    margin: 500px auto;
+    font-size: 50px;
+    text-align: center;
+}
+.home:hover{
+    box-shadow: none;
+    background-color: gold;
+}
